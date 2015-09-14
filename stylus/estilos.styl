@@ -1,0 +1,56 @@
+*
+	margin 0
+	padding 0
+.caja-total
+	width 100%
+	margin 0 auto
+	text-align center
+	padding-top 2em
+	padding-bottom 2em
+@import 'nib'
+@import 'caja.styl'
+@import 'double-caja.styl'
+@import 'presenta.styl'
+@import 'prefe.styl'
+@import 'paquete.styl'
+@import 'libro.styl'
+@import 'cel.styl'
+@import 'auto.styl'
+@import 'code.styl'
+@import 'boton.styl'
+@import 'banner.styl'
+@import 'platzi.styl'
+@import 'data.styl'
+@import 'music.styl'
+@import 'spotify.styl'
+html
+	font-family 'Arial', sans-serif
+body
+	background lightgray
+	
+.Header-Main
+	&__box
+		text-align center
+	&__Nav
+		background #3FCD71
+		.Nav__list
+		.Nav__item
+			display block
+		.Nav__link
+			display block
+			text-decoration none
+			padding 1em
+			color white
+			&:hover
+				background white
+				color black
+@media (min-width 768px)
+	.Header-Main
+		&__box
+			text-align center
+		&__Nav
+			.Nav__item
+			.Nav__item
+				display inline-block
+			.Nav__link
+				display inline-block

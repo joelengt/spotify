@@ -1,0 +1,56 @@
+.data
+	background #eff2e7
+	&__box
+		text-align left
+		display block
+		padding-top 2em
+		padding-bottom 2em
+		padding-left 2em
+	&__fecha
+		width 4em
+		display inline-block
+		vertical-align top
+		text-align center
+		margin-right -1em
+		.fecha__day
+			border-bottom 1px solid black
+			h2
+				font-size 3em
+		.fecha__mes
+			p
+				font-size 1.3em
+				text-transform uppercase
+				letter-spacy 2px
+	&__logo
+		width 6em
+		display inline-block
+		vertical-align top
+		text-align center
+		margin-right -1em
+		figure
+			img
+				width 60px
+	&__anuncio
+		width 12em
+		display inline-block
+		vertical-align top
+		text-align center
+		margin-right -1em
+		.anuncio__next
+			background #F34A4A
+			width 11em
+			padding .2em
+			margin 0 auto
+			h2
+				text-transform uppercase
+				font-size 1em
+				color white
+		.anuncio__curso
+			h2
+				font-size 1.4em
+		
+
+@media (min-width 900px)
+	.data
+		&__box
+			margin-left 3em

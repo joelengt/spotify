@@ -1,0 +1,58 @@
+.auto
+	background #F9F9F9
+	&__box
+		text-align center
+		margin 0 auto
+		width 100%
+		padding-top 2em
+		padding-bottom 2em
+	&__avatar
+		width 100%
+		display block
+		figure
+			width 100%
+			text-align center
+			margin 0 auto
+			img
+				width 250px
+				height auto
+				max-width 100%
+				border-radius 50%
+		a
+			font-size 1.5em
+			color #FF3737
+			text-transform uppercase
+			text-decoration none
+			font-weight 600
+	&__content
+		max-width 700px
+		display block
+		padding-top 2em
+		text-align center
+		margin 0 auto
+		h2
+			font-size 2em
+			text-transform uppercase
+			color #212121
+			padding-top .2em
+		p
+			padding-right 15px
+			padding-left 15px
+			text-align left
+			color #1F1F1F
+			font-size 1.3em
+			
+@media (min-width 768px)
+	.auto
+		&__box
+			max-width 900px
+			text-align center
+			margin 0 auto
+		&__avatar
+			width 45%
+			display inline-block
+			vertical-align top
+		&__content
+			width 45%
+			display inline-block
+			vertical-align top

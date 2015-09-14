@@ -1,0 +1,57 @@
+.banner
+	background #eff2e7
+	&__box
+		width 100%
+		text-align center
+		margin 0 auto
+	&__title
+		width 100%
+		display block
+		padding-top 1em
+		padding-bottom 1em
+		h2
+			font-size 1.5em
+			color black
+	&__botones
+		width 100%
+		display block
+		padding-top 1em
+		padding-bottom 1em
+		.botones
+			width 100%
+			display block
+			a
+				margin 1em
+				border-radius 20px
+				color white
+				text-decoration none
+				font-size 1.4em
+				background #46F34B
+				display block
+				padding .7em
+				border-bottom 5px solid #008000
+				&:hover
+					background #FF3C3C
+					border-bottom 5px solid #AF2C2C
+	
+@media (min-width 768px)
+	.banner
+		&__box
+			max-width 1000px
+			text-align center
+			margin 0 auto
+			padding-top 1em
+			padding-bottom 1em
+		&__title
+			width 50%
+			display inline-block
+			vertical-align middle
+		&__botones
+			width 45%
+			display inline-block
+			vertical-align middle
+			.botones
+				width 45%
+				display inline-block
+			
+		

@@ -1,0 +1,50 @@
+.video
+	height 0
+	padding-bottom 56.25%
+	position relative
+	overflow hidden
+iframe,
+object,
+embed,
+video
+	width 100%
+	height 100%
+	position absolute
+	right 0
+	left 0
+
+.presenta
+	width 100%
+	background yellow
+	&__box
+		margin 0 auto
+		text-align center
+		padding-top 2em
+		padding-bottom 2em
+	&__col1
+		width 100%
+		display block
+		background orange
+		h2
+			font-size 1.6em
+			text-align center
+		p
+			padding 15px
+			text-align left
+	&__video
+		display block
+		width 100%
+		background purple
+@media (min-width 768px)
+	.presenta
+		&__box
+			max-width 1000px
+		&__col1
+			width 45%
+			display inline-block
+			vertical-align top
+		&__video
+			width 45%
+			display inline-block
+			vertical-align top
+			

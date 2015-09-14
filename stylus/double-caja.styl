@@ -1,0 +1,38 @@
+.double-caja
+	background purple
+	&__box
+		width 100%
+		text-align center
+		maring 0 auto
+		padding-top 2em
+		padding-bottom 2em	
+	&__item1
+		background red
+		margin-bottom 2em
+		h2
+			font-size 1.7em
+		.item1__img
+			width 100%
+			maring 0 auto
+			text-align center
+			img
+				max-width 90%
+		p
+			padding 15px
+		&.back-yellow
+			background aqua
+		&.azulito
+			background blue
+@media (min-width 768px)
+	.double-caja
+		background green
+		&__box
+			width 100%
+			margin 0 auto
+			text-align center
+			&.max-width
+				max-width 1000px
+		&__item1
+			display inline-block
+			width 45%
+			vertical-align top
