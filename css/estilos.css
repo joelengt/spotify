@@ -821,7 +821,7 @@ video {
 }
 .music {
   background: #8bd3ec;
-  background-image: url("https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/moments/discover-hero.jpg");
+  background-image: url("../images/spotify/AAEAAQAAAAAAAAfXAAAAJDlhMDM0NWE4LWZjNTUtNDNiMS1iN2M4LWY2YmU3ZTUwZjY3Mw.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -844,7 +844,7 @@ video {
 .music__title h2 {
   font-size: 2em;
   text-align: center;
-  color: #1e3264;
+  color: #fff;
   font-weight: 800;
 }
 .music__content {
@@ -856,7 +856,7 @@ video {
 }
 .music__content p {
   text-align: center;
-  color: #1e3264;
+  color: #fff;
   font-size: 1em;
   font-weight: 200;
 }
@@ -889,7 +889,7 @@ video {
 }
 .spotify {
   background-color: #fff;
-  background-image: url("https://d2c87l0yth4zbw.global.ssl.fastly.net/i/home/carousel/bg-premium.jpg");
+  background-image: url("../images/spotify/spotify_2015_03.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
